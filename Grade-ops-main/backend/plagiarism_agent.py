@@ -24,7 +24,7 @@ class PlagiarismDetector:
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
             temperature=0.0, 
-            api_key=os.getenv("GEMINI_API_KEY")
+            api_key="AIzaSyAbBj5a_IzowbavA1IT68912F92g0xS3z0"
         )
         self.structured_llm = self.llm.with_structured_output(PlagiarismReport)
         print("🕵️‍♂️ Plagiarism Agent Initialized. Scanning for anomalies...\n")
