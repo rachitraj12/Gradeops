@@ -31,7 +31,7 @@ class AgenticGrader:
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
             temperature=0.1,
-            api_key=os.getenv("GEMINI_API_KEY")
+            api_key="AIzaSyAbBj5a_IzowbavA1IT68912F92g0xS3z0"
         )
         
         # Bind the new Full Exam schema
