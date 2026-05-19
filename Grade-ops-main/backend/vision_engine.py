@@ -9,7 +9,7 @@ class CloudVisionEngine:
     def __init__(self):
         # The Nuclear Option: Google Gemini via the brand new SDK
         # Your token is hardcoded right here
-        self.client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+        self.client = genai.Client(api_key="AIzaSyAbBj5a_IzowbavA1IT68912F92g0xS3z0")
         
         # We are using Gemini 2.5 Flash - their absolute latest and fastest vision model
         self.model_id = "gemini-2.5-flash"
